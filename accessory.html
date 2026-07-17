@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accessory | benten — ハンドメイドアクセサリーショップ 群馬県高崎市</title>
+  <meta name="description" content="bentenのオリジナルハンドメイドアクセサリー。常時500点以上のアイテムを取り揃え。オーダーメイド・リメイク・パワーストーンアクセサリーのご相談も承ります。" />
+  <meta name="keywords" content="ハンドメイドアクセサリー,benten,高崎市,パワーストーン,オーダーメイド,リメイク,ブレスレット,テラヘルツ" />
+  <meta property="og:title" content="Accessory | benten" />
+  <meta property="og:description" content="500点以上のオリジナルハンドメイドアクセサリー。オーダー・リメイク・御守りアクセサリーのご相談も。" />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER
+  ============================================================ -->
+  <header class="site-header" id="siteHeader">
+    <a href="index.html" class="site-logo" aria-label="benten トップページへ">
+      <span class="site-logo__main">benten</span>
+      <span class="site-logo__sub">Accessory &amp; Cafe</span>
+    </a>
+
+    <nav class="site-nav" aria-label="メインナビゲーション">
+      <ul class="site-nav__list">
+        <li><a href="index.html#about"    class="site-nav__link">About</a></li>
+        <li><a href="index.html#menu"     class="site-nav__link">Menu</a></li>
+        <li><a href="index.html#workshop" class="site-nav__link">Workshop</a></li>
+        <li><a href="index.html#access"   class="site-nav__link">Access</a></li>
+        <li><a href="accessory.html"      class="site-nav__link active">Accessory</a></li>
+      </ul>
+      <a href="index.html#contact" class="site-nav__reserve">Reserve</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false">
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+    </button>
+  </header>
+
+  <!-- Mobile Navigation Overlay -->
+  <div class="mobile-nav" id="mobileNav" role="dialog" aria-modal="true" aria-label="モバイルナビゲーション">
+    <ul class="mobile-nav__list">
+      <li>
+        <a href="index.html#about" class="mobile-nav__link">
+          About
+          <span class="mobile-nav__sub">お店について</span>
+        </a>
+      </li>
+      <li>
+        <a href="index.html#menu" class="mobile-nav__link">
+          Menu
+          <span class="mobile-nav__sub">メニュー</span>
+        </a>
+      </li>
+      <li>
+        <a href="index.html#workshop" class="mobile-nav__link">
+          Workshop
+          <span class="mobile-nav__sub">ワークショップ</span>
+        </a>
+      </li>
+      <li>
+        <a href="index.html#access" class="mobile-nav__link">
+          Access
+          <span class="mobile-nav__sub">アクセス</span>
+        </a>
+      </li>
+      <li>
+        <a href="accessory.html" class="mobile-nav__link">
+          Accessory
+          <span class="mobile-nav__sub">アクセサリー</span>
+        </a>
+      </li>
+    </ul>
+    <a href="index.html#contact" class="mobile-nav__reserve btn btn--gold">ご予約はこちら</a>
+  </div>
+
+  <!-- ============================================================
+       PAGE HERO
+  ============================================================ -->
+  <div class="page-hero">
+    <div class="page-hero__bg" style="background-image: url('img/アクセサリー2.jpg');"></div>
+    <div class="page-hero__overlay"></div>
+    <div class="page-hero__content">
+      <h1 class="page-hero__title">Accessory</h1>
+      <p class="page-hero__sub">オリジナルハンドメイドアクセサリー</p>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       INTRO
+  ============================================================ -->
+  <section class="section" id="accessory-intro" style="background: var(--cream); padding: 72px 0 56px;">
+    <div class="container accessory-intro" style="max-width: 700px;">
+      <div class="reveal">
+        <span class="section-label">About Our Accessory</span>
+        <h2 class="section-title">Handcrafted with<br><em>Love &amp; Light</em></h2>
+        <p class="section-subtitle" style="margin-bottom: 24px;">愛と光を込めた、手しごとの宝もの</p>
+        <p class="section-text">
+          bentenのアクセサリーはすべてオーナーが手がけるオリジナルハンドメイド作品。
+          デザイン・制作・販売まで一貫しているからこそ、どの一点にも想いとぬくもりが宿っています。
+          常時500点以上のアイテムをご用意しており、訪れるたびに新しい出会いがあります。
+          あなたの毎日に、小さな輝きを添えられますように。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALLERY
+  ============================================================ -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-label">Gallery</span>
+        <h2 class="section-title">Our Collection</h2>
+        <p class="section-subtitle">常時500点以上のアイテムを取り揃えています</p>
+      </div>
+
+      <div class="gallery__grid">
+        <div class="gallery-item reveal">
+          <img src="img/アクセサリー1.jpg" alt="ハンドメイドアクセサリー 作品1" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"></div>
+        </div>
+        <div class="gallery-item reveal reveal-delay-1">
+          <img src="img/アクセサリー2.jpg" alt="ハンドメイドアクセサリー 作品2" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"></div>
+        </div>
+        <div class="gallery-item reveal reveal-delay-2">
+          <img src="img/アクセサリー3.jpg" alt="ハンドメイドアクセサリー 作品3" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"></div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="img/アクセサリー4.jpg" alt="ハンドメイドアクセサリー 作品4" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"></div>
+        </div>
+        <div class="gallery-item reveal reveal-delay-1">
+          <img src="img/アクセサリー5.jpg" alt="ハンドメイドアクセサリー 作品5" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"></div>
+        </div>
+        <div class="gallery-item reveal reveal-delay-2">
+          <img src="img/アクセサリー6.jpg" alt="ハンドメイドアクセサリー 作品6" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"></div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="img/アクセサリー7.jpg" alt="ハンドメイドアクセサリー 作品7" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"></div>
+        </div>
+        <div class="gallery-item reveal reveal-delay-1">
+          <img src="img/アクセサリー8.jpg" alt="ハンドメイドアクセサリー 作品8" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"></div>
+        </div>
+      </div>
+
+      <p class="menu__note" style="margin-top: 32px;">※ 掲載の作品は販売済みの場合があります。在庫については直接お問い合わせください。</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES
+  ============================================================ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-label">Our Services</span>
+        <h2 class="section-title">For Your<br><em>Perfect Piece</em></h2>
+        <p class="section-subtitle">あなただけの一点を、一緒につくりましょう</p>
+      </div>
+
+      <div class="services__grid">
+
+        <div class="service-card reveal">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+          </div>
+          <h3 class="service-card__title">オリジナルアクセサリー販売</h3>
+          <p class="service-card__desc">
+            店内には常時500点以上のオリジナルハンドメイドアクセサリーが並んでいます。
+            ピアス、イヤリング、ブレスレット、ネックレス、ブローチなど、
+            バラエティ豊かなアイテムの中からお気に入りを見つけてください。
+          </p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+          </div>
+          <h3 class="service-card__title">オーダーメイド</h3>
+          <p class="service-card__desc">
+            「こんなアクセサリーが欲しい」というご要望をお聞かせください。
+            素材・色・デザインなどをご相談しながら、世界にひとつだけのオリジナルアクセサリーをお作りします。
+            プレゼントにもぴったりです。
+          </p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <polyline points="23 4 23 10 17 10"></polyline>
+              <path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"></path>
+            </svg>
+          </div>
+          <h3 class="service-card__title">リメイク・お直し</h3>
+          <p class="service-card__desc">
+            大切にしていたアクセサリーが壊れてしまった、古くなってしまった、そんな時はリメイク・お直しをご検討ください。
+            思い出のジュエリーを新しい形によみがえらせます。気軽にご相談ください。
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       POWER STONE
+  ============================================================ -->
+  <section class="powerstone" id="powerstone">
+    <div class="container">
+      <div class="powerstone__inner">
+
+        <div class="powerstone__image reveal">
+          <img src="img/テラヘルツアクセサリー.jpg" alt="パワーストーン・テラヘルツアクセサリー" loading="lazy" />
+        </div>
+
+        <div class="powerstone__text reveal reveal-delay-2">
+          <span class="section-label">Power Stone</span>
+          <h2 class="section-title">Your Guardian<br><em>Accessory</em></h2>
+          <p class="section-subtitle">あなたを守る、特別なひとつ</p>
+
+          <p class="section-text">
+            パワーストーンはそれぞれ固有のエネルギーを持ち、
+            身につける人を守り、導く力があると言われています。
+            bentenでは、お客様お一人おひとりの状況やご希望をお聞きし、
+            今のあなたに必要な石を丁寧に選びます。
+          </p>
+
+          <p class="section-text" style="margin-top: 12px;">
+            オーダーから完成まで、石選びの理由やその意味もお伝えしながら、
+            一緒に大切な御守りアクセサリーを作り上げていきます。
+          </p>
+
+          <a href="index.html#contact" class="btn btn--gold" style="align-self: flex-start; margin-top: 8px;">ご相談・ご予約はこちら</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA BANNER
+  ============================================================ -->
+  <section class="accessory-cta" style="padding: 80px 0; background: var(--cream-mid);">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Visit benten</span>
+        <h2 class="section-title" style="margin-bottom: 16px;">Come &amp; Find<br><em>Your Treasure</em></h2>
+        <p class="section-text" style="max-width: 540px; margin: 0 auto 36px;">
+          お店でしか出会えない、あなただけの一点がきっと見つかります。
+          ご来店は完全予約制ですので、お気軽にご連絡ください。
+        </p>
+        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+          <a href="index.html#contact" class="btn btn--gold">ご予約・お問い合わせ</a>
+          <a href="https://www.instagram.com/cafe_benten/" target="_blank" rel="noopener noreferrer" class="btn btn--outline">Instagram を見る</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__inner">
+
+        <div>
+          <p class="footer__logo">benten</p>
+          <p class="footer__tagline">
+            アクセサリーショップ併設のおうちカフェ<br>
+            大人の女性のための癒しのパワースポット<br>
+            群馬県高崎市 / 完全予約制
+          </p>
+        </div>
+
+        <div>
+          <p class="footer__heading">Navigation</p>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="index.html#about">About</a></li>
+            <li class="footer__list-item"><a href="index.html#menu">Menu</a></li>
+            <li class="footer__list-item"><a href="index.html#workshop">Workshop</a></li>
+            <li class="footer__list-item"><a href="index.html#access">Access</a></li>
+            <li class="footer__list-item"><a href="accessory.html">Accessory</a></li>
+            <li class="footer__list-item"><a href="index.html#contact">Reserve</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer__heading">Contact</p>
+          <p class="footer__info-item">〒370-0861<br>群馬県高崎市八千代町２丁目８−２０−２</p>
+          <p class="footer__info-item"><a href="tel:09093109773" style="color:rgba(255,253,245,0.65);">090-9310-9773</a></p>
+          <p class="footer__info-item"><a href="mailto:beads666@gmail.com" style="color:rgba(255,253,245,0.65);">beads666@gmail.com</a></p>
+          <p class="footer__info-item" style="margin-top:12px;">
+            <a href="https://www.instagram.com/cafe_benten/" target="_blank" rel="noopener noreferrer" style="color:rgba(255,253,245,0.65);">Instagram: @cafe_benten</a>
+          </p>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 benten. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Fixed Contact Navigation -->
+  <div class="mobile-contact-nav" aria-label="モバイル固定連絡ナビゲーション">
+    <a href="https://www.instagram.com/cafe_benten/" class="mobile-contact-nav__item" target="_blank" rel="noopener noreferrer">
+      <span class="mobile-contact-nav__icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+          <circle cx="12" cy="12" r="4"></circle>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </span>
+      <span class="mobile-contact-nav__label">Instagram</span>
+    </a>
+    <a href="tel:09093109773" class="mobile-contact-nav__item">
+      <span class="mobile-contact-nav__icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 3.07 9.84 19.79 19.79 0 0 1 1 3.18a2 2 0 0 1 2-2.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        </svg>
+      </span>
+      <span class="mobile-contact-nav__label">電話する</span>
+    </a>
+    <a href="mailto:beads666@gmail.com" class="mobile-contact-nav__item">
+      <span class="mobile-contact-nav__icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+      </span>
+      <span class="mobile-contact-nav__label">メール</span>
+    </a>
+  </div>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scrollTop" aria-label="ページトップへ戻る">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
