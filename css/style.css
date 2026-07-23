@@ -200,7 +200,7 @@ ul {
 ============================================================ */
 .site-header {
   position: fixed;
-  top: 0;
+  top: -80px;
   left: 0;
   right: 0;
   z-index: 1000;
@@ -213,10 +213,11 @@ ul {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: var(--border-gold);
-  transition: background var(--transition), box-shadow var(--transition);
+  transition: top 0.4s ease, background var(--transition), box-shadow var(--transition);
 }
 
 .site-header.scrolled {
+  top: 0;
   background: rgba(255,253,245,0.97);
   box-shadow: var(--shadow-soft);
 }
